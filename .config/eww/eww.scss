@@ -1,0 +1,40 @@
+*{
+  all: unset;
+}
+
+
+
+.cal-box {
+  background-color: #181825;
+  font-family: JetBrains Mono;
+  font-size: 14;
+  font-weight: bold;
+  border: 2px solid #f9e2af;
+  border-radius: 10px;
+}
+.cal-inner-box{
+  padding: 10px 10px 5px 10px;
+
+
+}
+calendar:selected {
+  color: #ef9e76;
+}
+calendar.header {
+color: #c6ac70;
+font-weight: bold;
+}
+calendar.button {
+color: #c6ac70;
+}
+calendar.highlight {
+color: #f9e2af;
+font-weight: bold;
+}
+calendar:indeterminate {
+color: #585b70;
+}
+calendar{
+  color:#e6e9ef;
+
+}
