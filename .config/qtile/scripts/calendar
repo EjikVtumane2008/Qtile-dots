@@ -1,0 +1,14 @@
+#!/bin/bash
+FILE="/home/ban/.cache/calendar.eww"
+
+run() {
+    /home/ban/eww/target/release/eww open calendar
+}
+
+if [[ ! -f "$FILE" ]]; then
+    touch "$FILE"
+    run
+else
+    /home/ban/eww/target/release/eww close calendar
+    rm "$FILE"
+fi
