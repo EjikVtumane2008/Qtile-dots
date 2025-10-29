@@ -8,7 +8,8 @@
 + nitrogen
 + kittty
 + starship prompt
-+ eww Widgets
++ eww idgets
++ fish shell
 
 CODE EDITOR: Doom emacs.
 
