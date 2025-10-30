@@ -1,0 +1,12 @@
+require('ban.plugins')
+require('ban.configs')
+require('ban.mapping')
+require('ban.colors')
+
+require("plugins.lsp")
+require('plugins.neotree')
+require('plugins.treesitter')
+require('plugins.cmp')
+require('plugins.mason')
+require('plugins.dash')
+require('nvim-autopairs').setup({})
